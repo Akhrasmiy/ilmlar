@@ -1,0 +1,105 @@
+.navbar_back {
+    width: 25px;
+    height: 25px;
+}
+
+.Nav ul {
+    margin-top: 30px;
+    padding: 0 27px;
+}
+
+.both_nav_class li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    padding: 12px 20px;
+    cursor: pointer;
+    margin-bottom: 8px;
+    border-radius: 25px;
+}
+.both_nav_class li:hover,
+.both_nav_class li.active {
+    font-weight: 700;
+    background-color: #3e305c;
+}
+.both_nav_class li p {
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 0.9px;
+    color: #ffffff;
+}
+.both_nav_class ul li img {
+    width: 31px;
+    height: 31px;
+    object-fit: cover;
+}
+
+.qaytish {
+    width: 40px;
+    height: 40px;
+    background: rgba(216, 29, 29, 0.3);
+}
+
+.circle {
+    background-color: #3e305c;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    margin-top: 8%;
+    margin-left: 8%;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.3);
+}
+.d-none {
+    display: none;
+}
+.user-navbar {
+    height: 100%;
+    width: 23vw;
+}
+
+.teacher-navbar {
+    height: 100%;
+    overflow-y: scroll;
+    width: 23vw;
+    background: linear-gradient(#564282, #826a91);
+    border-radius: 50px;
+}
+@media only screen and (max-width: 1200px) {
+    .both_nav_class ul li img {
+        width: 25px;
+        height: 25px;
+    }
+}
+@media only screen and (max-width: 850px) {
+    .both_nav_class li {
+        gap: 15px;
+        padding: 12px 25px;
+        margin-bottom: 8px;
+        border-radius: 25px;
+    }
+    .teacher-navbar {
+        height: 97dvh;
+    }
+    .circle {
+        background-color: #3e305c;
+        padding: 10px;
+        width: 40px;
+        height: 40px;
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-bottom: 5px;
+    }
+    .studentNavbar-box {
+        display: none;
+    }
+}
